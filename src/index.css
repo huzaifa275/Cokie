@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-script {
+  font-family: 'Great Vibes', 'Alex Brush', cursive;
+}
+
+.font-display {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a0d07;
+}
+::-webkit-scrollbar-thumb {
+  background: #4a2818;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6e3a22;
+}
+
+/* Floating crumbs keyframe */
+@keyframes floatParticle {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(6deg);
+  }
+}
+
+.animate-float-crumb {
+  animation: floatParticle 6s ease-in-out infinite;
+}
+
+.animate-float-crumb-delayed {
+  animation: floatParticle 8s ease-in-out infinite 2s;
+}

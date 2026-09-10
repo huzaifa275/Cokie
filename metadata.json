@@ -1,0 +1,6 @@
+{
+  "name": "Cokie Artisanal Bakery Pakistan",
+  "description": "Premium gourmet bakery in Pakistan offering freshly baked artisan cookies, cakes, brownies, and takeaway & delivery across Karachi, Lahore, and Islamabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
